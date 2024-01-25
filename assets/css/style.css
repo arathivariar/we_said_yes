@@ -133,6 +133,15 @@ nav {
     text-align: center;
   }
 
+  .venue, #map_link{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+
+
 /* Footer */
 #social-networks {
     text-align: center;
