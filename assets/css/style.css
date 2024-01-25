@@ -83,6 +83,13 @@ nav {
     font-size: 2rem;
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/brideandgroom.jpg") no-repeat center center/cover;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
