@@ -21,22 +21,16 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
+        <a href="index.html" id="logo">
             <h1 id="logo">We Said, Yes!</h1>
         </a>
             <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label">X</label>
+            <label for="nav-toggle" class="nav-toggle-label">Know more</label>
             <nav>
                 <ul id="menu">
-                    <li>
-                        <a href="index.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="invitation.html">Wedding Invitation</a>
-                    </li>
-                    <li>
-                        <a href="rsvp.html" class="active">RSVP</a>
-                    </li>
+                    <li><a href="index.html" class="active">About Us</a></li>
+                    <li><a href="invitation.html">Wedding Invitation</a></li>
+                    <li><a href="rsvp.html">RSVP</a></li>
                 </ul>
             </nav>
     </header>
@@ -44,33 +38,35 @@
     <!-- Main content -->
     <main>
         <section id="rsvpform">
-            <form id="rsvp-form" method="POST" action="thankyou.html">
+            <form id="rsvp-form" action="thankyou.html">
                 <h2><i class="fa-solid fa-heartbeat"></i>Join us in the joyous celebration of love!</h2>
                 <label for="first_name">First Name:</label>
                 <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Please enter your first name here" required>
                 <br>
                 <label for="last_name">Last Name:</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" placceholder="Please enter your last name here" required>
+                <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Please enter your last name here" required>
                 <br>
                 <label for="phone_number">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" class="text-input" placeholder="Please enter your 10 digit phone number here" minlength="10" maxlength="10" required>
+                <input type="tel" id="phone_number" name="phone_number" class="text-input" placeholder="Please enter your 10 digit phone number here" minlength="10" maxlength="10" required>
                 <br>
                 <label for="email_address">Email Address:</label>
                 <input type="email" name="email_address" id="email_address" class="text-input" placeholder="Please enter your email address here" required>
                 <br>
                 <div class="radio-buttons">
                     <div>
-                        <label for="accept">Yes, we will be there</label>
-                        <input type="radio" name="response" id="accept" value="accept" required checked>
-                    </div>
-                    <div>
-                        <label for="decline">No, we cannot make it</label>
-                        <input type="radio" name="response" id="decline" value="decline" required>
+                        <span>
+                            <input type="radio" name="response" id="accept" value="accept" required checked>
+                            <label for="accept">Yes, we will be there</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="response" id="decline" value="decline" required>
+                            <label for="decline">No, we cannot make it</label>    
+                        </span>
                     </div>
                 </div>
                 <br>
                 <label for="message">Your Message:</label>
-                <input type="textarea" name="message" id="message" class="text-input" placeholder="Please write a message for the host here (Optional)">
+                <textarea id="message" name="message" class="text-input" rows="4" cols="50" placeholder="Please write a message for the host here (Optional)"></textarea>
                 <br>
                 <button type="submit" class="rsvp-button">RSVP</button>
             </form>
