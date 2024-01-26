@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #E4959E;
+    color: #fff;
     font-family:'Lato', sans-serif;
 }
 
@@ -93,14 +93,15 @@ nav {
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(54,117,136, .7);
-    font-size: 130%;
+    font-size: 100%;
+    text-decoration-color: #fff;
     position: absolute;
     bottom: 30px;
-    width: 40%;
+    width: 80%;
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-    /*align-items: center; Add code to align cover text right below the title: top left*/
+    align-items: center; /*Add code to align cover text right below the title: top left*/
 }
 
 #cover-text>h2,
@@ -134,11 +135,12 @@ nav {
   }
 
   .venue, #map_link{
-    font-size: 40px;
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    text-decoration: none;
-    text-transform: lowercase;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-transform: capitalize;
   }
 
 
@@ -155,6 +157,12 @@ nav {
     font-size: 160%;
     padding: 5%;
     color: #DFF8EB;
+}
+
+footer > p{
+    text-align: center;
+    text-decoration: solid;
+    text-decoration-color: #fff;
 }
 
 /* Main content */
