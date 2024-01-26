@@ -23,9 +23,11 @@ Navigation:
 //Insert screenshots of all pages along with descriptions
 
 Future Features:
+1. The host will receive the list of RSVP responses by all the guests so that they can properly plan the wedding.
+2. The user can select the invitation template from a list of avilable templates.
 
 Testing:
-Validator Testing: HTMl, CSS and Lighthouse
+Validator Testing: HTML, CSS and Lighthouse
 
 Bugs:
 
