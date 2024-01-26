@@ -38,7 +38,7 @@ header a {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -84,7 +84,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -109,8 +109,7 @@ nav {
     width: auto;
     height: max-content;
     padding-top: 40px;
-    padding-left: 10px;
-    
+    padding-left: 10px;  
 }
 
 #cover-text>h2,
@@ -200,6 +199,8 @@ main {
     color: #ffffff;
     background-color: #E4959E;
     padding: 30px;
+    width:fit-content;
+    height:fit-content;
 }
 #rsvp-form>h2 {
     color: #fafafa;
@@ -249,6 +250,13 @@ main {
     text-align: center;
     letter-spacing: 1px;
     box-shadow: 5px 5px 10px rgba(54, 117, 136, 0.5);
+}
+
+#savethedate_image {
+    height: 600px;
+    width: 100%;
+    float:right;
+    background: url("../images/savethedate.webp") no-repeat center center/cover;
 }
 
 /* Media query: tablets and larger (768px and up) */
