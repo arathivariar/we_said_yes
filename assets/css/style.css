@@ -46,12 +46,15 @@ h1 {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     list-style-type: none;
+    float: right;
 }
 
 #menu > li {
-    margin-bottom: 1em;
+    margin-right: 2em;
+    column-gap: 10px;
+    float: right;
 }
 
 .active {
@@ -102,8 +105,9 @@ nav {
     text-decoration-color: #fff;
     position: relative;
     top: 0px;
-    width: 50%;
-    min-height: 200px;
+    left: 0px;
+    width: auto;
+    height: max-content;
     padding-top: 40px;
     padding-left: 10px;
     
@@ -229,6 +233,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    column-gap: 10px;
 }
 .rsvp-button {
     margin-top: 20px;
