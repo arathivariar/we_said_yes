@@ -14,6 +14,12 @@ Design:
 Features:
 
 Existing Features:
+1. Navigation bar: 3 pages + 1 page
+2. About us
+3. Wedding invitation: Wedding details + Google Map link
+4. RSVP form
+5. Thank you page
+6. Social media links in the footer
 
 Languages Used:
 HTML5
@@ -32,5 +38,13 @@ Validator Testing: HTML, CSS and Lighthouse
 Bugs:
 
 Libraries and Programs Used:
+1. Google Fonts: https://fonts.google.com/
+2. Font Awesome: https://fontawesome.com/
+3. Convertio to convert .jpg images to .webp: https://convertio.co/webp-converter/
+4. Favicon generator to convert image to favicon: https://favicon.io/favicon-converter/
+
 Credits for Content & Media:
+1. Pexels for images: https://www.pexels.com/
+2. Love Running project
+
 Deployment:
