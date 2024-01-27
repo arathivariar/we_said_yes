@@ -48,3 +48,14 @@ Credits for Content & Media:
 2. Love Running project
 
 Deployment:
+
+The website is deployed to GitHub pages. The steps to deploy are as follows:
+
+In the GitHub repository, navigate to the Settings tab.
+From the Settings tab, select the 'Pages' tab in the 'Code and Automation' section.
+From the source section drop-down menu, select the 'Main' branch.
+Also, check the folder selected is set to / (root) and click Save.
+Return to the 'Code' tab of GitHub repo and wait a few minutes for the build to finish.
+Refresh the page. Click on github-pages to view the Deployments History. Click View deployment to open the live URL.
+
+The live link for the site can be found here: https://arathivariar.github.io/we_said_yes/
