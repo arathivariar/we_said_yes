@@ -21,7 +21,7 @@ body {
 
 /* Header */
 header {
-    background-color: #DFF8EB;
+    background-color: #367588;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -93,7 +93,7 @@ nav {
 
 /* Hero section */
 #hero {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url("../images/rsvp.webp") no-repeat center center/cover;
 }
@@ -104,7 +104,7 @@ nav {
     font-size: 130%;
     text-decoration-color: #fff;
     position: relative;
-    top: 0px;
+    top: 200px;
     left: 0px;
     width: auto;
     height: max-content;
