@@ -181,20 +181,20 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
+    margin-top: 50px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
 
 /* Form */
-#rsvp-container {
+#rsvp-page{
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
-#rsvp-form, #rsvp-image {
+#rsvp-form {
     color: #ffffff;
     background-color: #E4959E;
     padding: 30px;
@@ -249,13 +249,6 @@ main {
     text-align: center;
     letter-spacing: 1px;
     box-shadow: 5px 5px 10px rgba(54, 117, 136, 0.5);
-}
-
-#savethedate_image {
-    height: 600px;
-    width: 100%;
-    float:right;
-    background: url("../images/savethedate.webp") no-repeat center center/cover;
 }
 
 /* Media query: tablets and larger (768px and up) */
