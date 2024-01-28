@@ -194,13 +194,12 @@ main {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
-#rsvp-form {
+#rsvp-form, #rsvp-image {
     color: #ffffff;
     background-color: #E4959E;
-    height:fit-content;
-    width: 50%;
-    float: left;
     padding: 30px;
+    width:fit-content;
+    height:fit-content;
 }
 #rsvp-form>h2 {
     color: #fafafa;
