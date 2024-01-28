@@ -199,12 +199,8 @@ main {
     background-color: #E4959E;
     height:fit-content;
     width: 50%;
-    /*float: right;*/
-    padding: 20px;
-    border: 2px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    float: left;
+    padding: 30px;
 }
 #rsvp-form>h2 {
     color: #fafafa;
