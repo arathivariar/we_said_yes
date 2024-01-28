@@ -188,8 +188,7 @@ main {
 }
 
 /* Form */
-#rsvp {
-    background-image: url("../images/savethedate.webp");
+#rsvp-container {
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -198,9 +197,14 @@ main {
 #rsvp-form {
     color: #ffffff;
     background-color: #E4959E;
-    padding: 30px;
-    width:fit-content;
     height:fit-content;
+    width: 50%;
+    /*float: right;*/
+    padding: 20px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #rsvp-form>h2 {
     color: #fafafa;
