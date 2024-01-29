@@ -7,25 +7,27 @@
  //Insert screenshots of the website here
 
 **Table of Contents:**
-•	Design
-•	Features
-	    Existing Features
-            o	Languages Used
-            o	Navigation
-            o	Home Page Hero Image
-            o	Home Page
-            o	Footer
-            o	Wedding Invitation
-            o	RSVP
-        Future Features
+
+* Design
+* Features
+
+	* Existing Features
+            * Languages Used
+            * Navigation
+            * Home Page Hero Image
+            * Home Page
+            * Footer
+            * Wedding Invitation
+            * RSVP
+        * Future Features
 •	Testing
-        	Validator Testing
-        	Bugs
-	Libraries & Programs Used
-•	Deployment
-•	Credits
-        o	Content
-        o	Media
+            * Validator Testing
+            * Bugs
+* Libraries & Programs Used
+* Deployment
+* Credits
+        * Content
+        * Media
 
 
 **Design:**
@@ -47,8 +49,8 @@ I selected both the text and background colours suitable for a wedding invitatio
 6. Social media links in the footer
 
 **Languages Used:**
-1.  HTML5
-2. CSS3
++ HTML5
++ CSS3
 
 **Navigation:**
 A hamburger menu icon is provided at the right-hand side of the header for the user to easily locate and use for navigation purposes.
@@ -88,13 +90,13 @@ Testing of the website is done by me, my family, and friends on various devices 
 We have tested the website on both Google Chrome (used for the development) and Microsoft Edge to ensure that the website worked on different browsers.
 
 **Validator Testing:**
-•  HTML: No errors were returned when passing through the official W3C validator.
+* HTML: No errors were returned when passing through the official W3C validator.
 // Insert screenshot of HTML validation testing
 
-•	CSS: No errors were found when passing through the official (Jigsaw) validator.
+* CSS: No errors were found when passing through the official (Jigsaw) validator.
 //Insert screenshot of CSS validation testing
 
-•	Lighthouse (Accessibility Audit): The page achieved a great accessibility performance as shown below:
+* Lighthouse (Accessibility Audit): The page achieved a great accessibility performance as shown below:
 //Insert screenshot of Lighthouse score
 
 _Note:_ The above screenshots show the results of the index.html page, no errors were found on the other pages as well. All the pages had great accessibility performance while validation testing using the above-mentioned tools.
@@ -104,17 +106,17 @@ During the development phase, there were a few minor bugs related to the look an
 There are no unfixed bugs existing in this website as per my knowledge.
 
 **Libraries and Programs Used:**
-•	Github: Code Repository
-•	Gitpod: Development IDE
-•	Google Fonts: https://fonts.google.com/
-•	Font Awesome: https://fontawesome.com/
-•	Convertio to convert .jpg images to .webp: https://convertio.co/webp-converter/
-•	Favicon generator to convert image to favicon: https://favicon.io/favicon-converter/
+* Github: Code Repository
+* Gitpod: Development IDE
+* Google Fonts: https://fonts.google.com/
+* Font Awesome: https://fontawesome.com/
+* Convertio to convert .jpg images to .webp: https://convertio.co/webp-converter/
+* Favicon generator to convert image to favicon: https://favicon.io/favicon-converter/
 
 **Credits for Content & Media:**
-•	Pexels for images: https://www.pexels.com/
-•	Love Running project and Coders Coffee project : I used these two projects as my reference for HTML design and CSS styling of various elements.
-•	My Mentor Martina for her guidance and the Slack Community for their support.
+* Pexels for images: https://www.pexels.com/
+* Love Running project and Coders Coffee project : I used these two projects as my reference for HTML design and CSS styling of various elements.
+* My Mentor Martina for her guidance and the Slack Community for their support.
 
 **Deployment:**
 
