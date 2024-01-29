@@ -104,14 +104,17 @@ During the development phase, there were a few minor bugs related to the look an
 There are no unfixed bugs existing in this website as per my knowledge.
 
 Libraries and Programs Used:
-1. Google Fonts: https://fonts.google.com/
-2. Font Awesome: https://fontawesome.com/
-3. Convertio to convert .jpg images to .webp: https://convertio.co/webp-converter/
-4. Favicon generator to convert image to favicon: https://favicon.io/favicon-converter/
+•	Github: Code Repository
+•	Gitpod: Development IDE
+•	Google Fonts: https://fonts.google.com/
+•	Font Awesome: https://fontawesome.com/
+•	Convertio to convert .jpg images to .webp: https://convertio.co/webp-converter/
+•	Favicon generator to convert image to favicon: https://favicon.io/favicon-converter/
 
 Credits for Content & Media:
-1. Pexels for images: https://www.pexels.com/
-2. Love Running project
+•	Pexels for images: https://www.pexels.com/
+•	Love Running project and Coders Coffee project : I used these two projects as my reference for HTML design and CSS styling of various elements.
+•	My Mentor Martina for her guidance and the Slack Community for their support.
 
 Deployment:
 
