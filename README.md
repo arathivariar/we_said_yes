@@ -29,7 +29,12 @@ Table of Contents:
 
 
 Design:
+I started with a wireframe on paper with pencil as shown below:
 //Insert the wireframe here
+
+Text & Background colour
+I selected both the text and background colours suitable for a wedding invitation. I wanted to keep the colour palette breezy with pastel colours and include images related to wedding. I have used a darker shade for the header and the footer to provide some contrast from the main sections.
+
 
 Features:
 
@@ -42,11 +47,37 @@ Existing Features:
 6. Social media links in the footer
 
 Languages Used:
-HTML5
-CSS3
+1.  HTML5
+2. CSS3
 
 Navigation:
-//Insert screenshots of all pages along with descriptions
+A hamburger menu icon is provided at the right-hand side of the header for the user to easily locate and use for navigation purposes.
+//Insert screenshot of navigation bar menu
+
+Home Page Hero Image
+A Hero Image is used on the “About Us” Page (only) under the Header. The cover text over the Hero Image, 'About Us', has been added to enhance  the design. 
+//Insert an image of Hero Image with cover text overlay
+
+About Us page
+This page provides the user an idea about what the website provides. I have used a minimalistic approach with just one hero image and some description text about what we do.
+//Insert screenshot of home page
+
+Wedding Invitation page
+In this page, the user can find the details about the wedding like the bride and groom, wedding date and time and wedding venue. Also, there is a Google Maps link to reach the venue. There is a pretty background image on this page for the invitation text.
+//Insert screenshot of invitation page
+
+RSVP page
+Here in this page, the user can respond to the invitation with an RSVP. The RSVP form had input fields for First Name, Last Name, Phone Number, Email Address, Radio Buttons to accept or decline the invitation, a text are for an optional message to the host and a submit button. 
+Once the user submits the form, it redirects to a “Thank You” page.
+//Insert screenshot of RSVP page
+
+Thank You page
+This page has an image with a  simple Thank you message for the users once they submit their RSVP response.
+//Insert screenshot of thank you page
+
+Footer
+The footer section includes the links to three social media sites and a text indicating that this is copyrighted to “We Said, Yes!”.
+//Insert screenshot of footer
 
 Future Features:
 1. The host will receive the list of RSVP responses by all the guests so that they can properly plan the wedding.
