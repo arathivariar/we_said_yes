@@ -12,22 +12,23 @@
 * Features
 
 	* Existing Features
-                * Languages Used
-                * Navigation
-                * Home Page Hero Image
-                * Home Page
-                * Footer
-                * Wedding Invitation
-                * RSVP
+           1. Languages Used
+           2. Navigation
+           3. Home Page Hero Image
+           4. Home Page
+           5. Footer
+           6. Wedding Invitation
+           7. RSVP
+           8. Thank You Page
         * Future Features
 * Testing
-                * Validator Testing
-                * Bugs
+       1. Validator Testing
+       2. Bugs
 * Libraries & Programs Used
 * Deployment
 * Credits
-        _ Content
-        _ Media
+       1. Content
+       2. Media
 
 
 **Design:**
