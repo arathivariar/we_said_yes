@@ -12,30 +12,30 @@
 * Features
 
 	* Existing Features
-            * Languages Used
-            * Navigation
-            * Home Page Hero Image
-            * Home Page
-            * Footer
-            * Wedding Invitation
-            * RSVP
+                * Languages Used
+                * Navigation
+                * Home Page Hero Image
+                * Home Page
+                * Footer
+                * Wedding Invitation
+                * RSVP
         * Future Features
-•	Testing
-            * Validator Testing
-            * Bugs
+* Testing
+                * Validator Testing
+                * Bugs
 * Libraries & Programs Used
 * Deployment
 * Credits
-        * Content
-        * Media
+        _ Content
+        _ Media
 
 
 **Design:**
 I started with a wireframe on paper with pencil as shown below:
 //Insert the wireframe here
 
-Text & Background colour
-I selected both the text and background colours suitable for a wedding invitation. I wanted to keep the colour palette breezy with pastel colours and include images related to wedding. I have used a darker shade for the header and the footer to provide some contrast from the main sections.
+* Text & Background colour:
+  I selected both the text and background colours suitable for a wedding invitation. I wanted to keep the colour palette breezy with pastel colours and include images related to wedding. I have used a darker shade for the header and the footer to provide some contrast from the main sections.
 
 
 **Features:**
