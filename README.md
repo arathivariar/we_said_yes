@@ -49,7 +49,7 @@
 **Design:**
 I started with a wireframe on paper with pencil as shown below:  
 
-![Wireframe Design](wireframe_design.jpg)  
+![Wireframe Design](assets/screenshots/wireframe_design.jpg)  
 
 
 * Text & Background colour:  
@@ -76,7 +76,7 @@ I started with a wireframe on paper with pencil as shown below:
 
 A hamburger menu icon is provided at the right-hand side of the header for the user to easily locate and use for navigation purposes.  
 
-![Header with Navigation Menu](header_navigation_menu.png)  
+![Header with Navigation Menu](assets/screenshots/header_navigation_menu.png)  
 
 
 **Home Page Hero Image**  
@@ -84,7 +84,7 @@ A hamburger menu icon is provided at the right-hand side of the header for the u
 A Hero Image is used on the “About Us” Page (only) under the Header. The cover text over the Hero Image, 'About Us', has been added to enhance  the design.  
 
 
-![Hero Image](about_us_page.png)  
+![Hero Image](assets/screenshots/about_us_page.png)  
 
 
 **About Us page**  
@@ -92,7 +92,7 @@ A Hero Image is used on the “About Us” Page (only) under the Header. The cov
 This page provides the user an idea about what the website provides. I have used a minimalistic approach with just one hero image and some description text about what we do.  
 
 
-![About Us Page](about_us_page-1.png)  
+![About Us Page](assets/screenshots/about_us_page.png)  
 
 
 **Wedding Invitation page**  
@@ -100,7 +100,7 @@ This page provides the user an idea about what the website provides. I have used
 In this page, the user can find the details about the wedding like the bride and groom, wedding date and time and wedding venue. Also, there is a Google Maps link to reach the venue. There is a pretty background image on this page for the invitation text.   
 
 
-![Wedding Invitation Page](wedding_invitation_page.png)   
+![Wedding Invitation Page](assets/screenshots/wedding_invitation_page.png)   
 
 
 **RSVP page**  
@@ -109,7 +109,7 @@ Here in this page, the user can respond to the invitation with an RSVP. The RSVP
 Once the user submits the form, it redirects to a “Thank You” page.   
 
 
-![RSVP Form](rsvp_form_page.png)  
+![RSVP Form](assets/screenshots/rsvp_form_page.png)  
 
 
 **Thank You page**  
@@ -117,7 +117,7 @@ Once the user submits the form, it redirects to a “Thank You” page.
 This page has an image with a  simple Thank you message for the users once they submit their RSVP response.  
 
 
-![Thank You Page](thank_you_page.png)  
+![Thank You Page](assets/screenshots/thank_you_page.png)  
 
 
 **Footer**  
@@ -125,7 +125,7 @@ This page has an image with a  simple Thank you message for the users once they 
 The footer section includes the links to three social media sites and a text indicating that this is copyrighted to “We Said, Yes!”.   
 
 
-![Footer](footer.png)   
+![Footer](assets/screenshots/footer.png)   
 
 
 **Future Features:**  
@@ -142,27 +142,27 @@ We have tested the website on both Google Chrome (used for the development) and 
 
 * HTML: No errors were returned when passing through the official W3C validator. 
 
-![index.html](index_html.png)   
+![index.html](assets/screenshots/index_html.png)   
 
-![invitation.html](invitation_html.png)  
+![invitation.html](assets/screenshots/invitation_html.png)  
 
-![rsvp.html](rsvp_html.png)   
+![rsvp.html](assets/screenshots/rsvp_html.png)   
 
 
-![thankyou.html](thankyou_html.png)   
+![thankyou.html](assets/screenshots/thankyou_html.png)   
 
 
 
 * CSS: No errors were found when passing through the official (Jigsaw) validator.   
 
-![style.css](css_validation.png)  
+![style.css](assets/screenshots/css_validation.png)  
 
 
 
 * Lighthouse (Accessibility Audit): The page achieved a great accessibility performance as shown below:   
 
 
-![light_house_score](light_house_score.png)   
+![light_house_score](assets/screenshots/light_house_score.png)   
 
 
 
