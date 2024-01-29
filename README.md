@@ -1,12 +1,32 @@
-Title: 
+Title:
 "We Said, Yes!"
 
 About Us: 
-"We Said, Yes!" is a wedding invitation website where your guests can see the wedding details and respond with an RSVP message to the host.
-We make your big day even more special with the presence of your family and friends. Let's have a joyous celebration of love, together with our loved ones!
-//Insert screenshots of the website here
+"We Said, Yes!" is a wedding invitation website where your guests can see the wedding details and respond with an RSVP message to the host. We make your big day even more special with the presence of your family and friends. Let's have a joyous celebration of love, together with our loved ones!
+
+ //Insert screenshots of the website here
 
 Table of Contents:
+•	Design
+•	Features
+	    Existing Features
+            o	Languages Used
+            o	Navigation
+            o	Home Page Hero Image
+            o	Home Page
+            o	Footer
+            o	Wedding Invitation
+            o	RSVP
+        Future Features
+•	Testing
+        	Validator Testing
+        	Bugs
+	Libraries & Programs Used
+•	Deployment
+•	Credits
+        o	Content
+        o	Media
+
 
 Design:
 //Insert the wireframe here
