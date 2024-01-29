@@ -84,9 +84,24 @@ Future Features:
 2. The user can select the invitation template from a list of avilable templates.
 
 Testing:
-Validator Testing: HTML, CSS and Lighthouse
+Testing of the website is done by me, my family, and friends on various devices like mobile phones, tablet, laptop, and desktop. We have verified that the navigation to all the pages, all the links, and the RSVP form (including all the input fields)  are working as expected.
+We have tested the website on both Google Chrome (used for the development) and Microsoft Edge to ensure that the website worked on different browsers.
+
+Validator Testing:
+•  HTML: No errors were returned when passing through the official W3C validator.
+// Insert screenshot of HTML validation testing
+
+•	CSS: No errors were found when passing through the official (Jigsaw) validator.
+//Insert screenshot of CSS validation testing
+
+•	Lighthouse (Accessibility Audit): The page achieved a great accessibility performance as shown below:
+//Insert screenshot of Lighthouse score
+
+Note: The above screenshots show the results of the index.html page, no errors were found on the other pages as well. All the pages had great accessibility performance while validation testing using the above-mentioned tools.
 
 Bugs:
+During the development phase, there were a few minor bugs related to the look and feel of the website. I was able to fix all the bugs through trial and error using Development Tools. I also Googled whenever I had some issues like not able to find the icons I am looking for, a few CSS properties like flexbox were not working as expected. I have given due credit to all the content and media in the credits section of this document.
+There are no unfixed bugs existing in this website as per my knowledge.
 
 Libraries and Programs Used:
 1. Google Fonts: https://fonts.google.com/
