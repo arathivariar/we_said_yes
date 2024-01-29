@@ -47,8 +47,10 @@
 
 
 **Design:**
-I started with a wireframe on paper with pencil as shown below:
-//Insert the wireframe here
+I started with a wireframe on paper with pencil as shown below:  
+
+![Wireframe Design](wireframe_design.jpg)  
+
 
 * Text & Background colour:  
 
@@ -58,12 +60,13 @@ I started with a wireframe on paper with pencil as shown below:
 **Features:**
 
 **Existing Features:**
-1. Navigation bar: 3 pages + 1 page
-2. About us
-3. Wedding invitation: Wedding details + Google Map link
-4. RSVP form
-5. Thank you page
-6. Social media links in the footer
+1. Header
+2. Navigation bar
+3. About us page
+4. Wedding invitation page with the Wedding details and Google Map link
+5. RSVP form
+6. Thank you page
+7. Social media links in the footer
 
 **Languages Used:**
 + HTML5
@@ -71,39 +74,59 @@ I started with a wireframe on paper with pencil as shown below:
 
 **Navigation:**  
 
-A hamburger menu icon is provided at the right-hand side of the header for the user to easily locate and use for navigation purposes.
-//Insert screenshot of navigation bar menu
+A hamburger menu icon is provided at the right-hand side of the header for the user to easily locate and use for navigation purposes.  
+
+![Header with Navigation Menu](header_navigation_menu.png)  
+
 
 **Home Page Hero Image**  
 
-A Hero Image is used on the “About Us” Page (only) under the Header. The cover text over the Hero Image, 'About Us', has been added to enhance  the design. 
-//Insert an image of Hero Image with cover text overlay
+A Hero Image is used on the “About Us” Page (only) under the Header. The cover text over the Hero Image, 'About Us', has been added to enhance  the design.  
+
+
+![Hero Image](about_us_page.png)  
+
 
 **About Us page**  
 
-This page provides the user an idea about what the website provides. I have used a minimalistic approach with just one hero image and some description text about what we do.
-//Insert screenshot of home page
+This page provides the user an idea about what the website provides. I have used a minimalistic approach with just one hero image and some description text about what we do.  
+
+
+![About Us Page](about_us_page-1.png)  
+
 
 **Wedding Invitation page**  
 
-In this page, the user can find the details about the wedding like the bride and groom, wedding date and time and wedding venue. Also, there is a Google Maps link to reach the venue. There is a pretty background image on this page for the invitation text.
-//Insert screenshot of invitation page
+In this page, the user can find the details about the wedding like the bride and groom, wedding date and time and wedding venue. Also, there is a Google Maps link to reach the venue. There is a pretty background image on this page for the invitation text.   
+
+
+![Wedding Invitation Page](wedding_invitation_page.png)   
+
 
 **RSVP page**  
 
 Here in this page, the user can respond to the invitation with an RSVP. The RSVP form had input fields for First Name, Last Name, Phone Number, Email Address, Radio Buttons to accept or decline the invitation, a text are for an optional message to the host and a submit button. 
-Once the user submits the form, it redirects to a “Thank You” page.
-//Insert screenshot of RSVP page
+Once the user submits the form, it redirects to a “Thank You” page.   
+
+
+![RSVP Form](rsvp_form_page.png)  
+
 
 **Thank You page**  
 
-This page has an image with a  simple Thank you message for the users once they submit their RSVP response.
-//Insert screenshot of thank you page
+This page has an image with a  simple Thank you message for the users once they submit their RSVP response.  
+
+
+![Thank You Page](thank_you_page.png)  
+
 
 **Footer**  
 
-The footer section includes the links to three social media sites and a text indicating that this is copyrighted to “We Said, Yes!”.
-//Insert screenshot of footer
+The footer section includes the links to three social media sites and a text indicating that this is copyrighted to “We Said, Yes!”.   
+
+
+![Footer](footer.png)   
+
 
 **Future Features:**  
 
@@ -117,16 +140,34 @@ We have tested the website on both Google Chrome (used for the development) and 
 
 **Validator Testing:**  
 
-* HTML: No errors were returned when passing through the official W3C validator.
-// Insert screenshot of HTML validation testing
+* HTML: No errors were returned when passing through the official W3C validator. 
 
-* CSS: No errors were found when passing through the official (Jigsaw) validator.
-//Insert screenshot of CSS validation testing
+![index.html](index_html.png)   
 
-* Lighthouse (Accessibility Audit): The page achieved a great accessibility performance as shown below:
-//Insert screenshot of Lighthouse score
+![invitation.html](invitation_html.png)  
 
-_Note:_ The above screenshots show the results of the index.html page, no errors were found on the other pages as well. All the pages had great accessibility performance while validation testing using the above-mentioned tools.
+![rsvp.html](rsvp_html.png)   
+
+
+![thankyou.html](thankyou_html.png)   
+
+
+
+* CSS: No errors were found when passing through the official (Jigsaw) validator.   
+
+![style.css](css_validation.png)  
+
+
+
+* Lighthouse (Accessibility Audit): The page achieved a great accessibility performance as shown below:   
+
+
+![light_house_score](light_house_score.png)   
+
+
+
+_Note:_ The above screenshot show the results of the index.html page. All the pages had great accessibility performance while validation testing.   
+
 
 **Bugs:**  
 
