@@ -15,34 +15,30 @@
 
 	- [Existing Features](#existing-features) 
 
-        -       Languages Used
+        -    [Languages Used](#languages-used)
 
-        -       Navigation
+        -    [Navigation](#navigation)
 
-        -       Home Page Hero Image  
+        -    [Home Page Hero Image](#home-page-hero-image)  
 
-        -       Home Page  
+        -    [About Us Page](#about-us-page)  
 
-        -       Footer  
+        -    [Wedding Invitation](#wedding-invitation) 
 
-        -       Wedding Invitation 
+        -    [RSVP](#rsvp)  
 
-        -       RSVP  
+        -    [Thank You Page](#thank-you-page)  
 
-        -       Thank You Page  
+         -   [Footer](#footer)  
 
-        - [Future Features](#future-features)
-- [Testing](#testing)  
+   - [Future Features](#future-features)
+- [Testing](#testing)   
+     -    [Validator Testing](#validator-testing)  
+     -    [Bugs](#bugs)
 
-        Validator Testing
-        Bugs  
-
--    [Libraries & Programs Used](#libraries-and-programs-used)
-- [Credits](#credits)  
-
-        Content  
-        Media 
--    [Deployment](#deployment)
+-    [Libraries and Programs Used](#libraries-and-programs-used)
+- [Credits for Content and Media](#credits)  
+- [Deployment](#deployment)
    
 
 
@@ -190,7 +186,7 @@ There are no unfixed bugs existing in this website as per my knowledge.
 * Generate favicon: [Favicon](https://favicon.io/favicon-converter/)
 
 
-# Credits for Content & Media:
+# Credits for Content and Media:
 * Images: [Pexels](https://www.pexels.com/)
 * Website screenshot across devices: [Am I Responsive?](https://ui.dev/amiresponsive)
 * Love Running project and Coders Coffee project : I used these two projects as my reference for HTML design and CSS styling of various elements.
@@ -207,4 +203,4 @@ Also, check the folder selected is set to / (root) and click Save.
 Return to the 'Code' tab of GitHub repo and wait a few minutes for the build to finish.
 Refresh the page. Click on github-pages to view the Deployments History. Click View deployment to open the live URL.
 
-_Note:_ The live link for the site can be found here: https://arathivariar.github.io/we_said_yes/
+_Note:_ The live website link: https://arathivariar.github.io/we_said_yes/
