@@ -182,17 +182,17 @@ There are no unfixed bugs existing in this website as per my knowledge.
 
 # Libraries and Programs Used:  
 
-* Github: Code Repository
-* Gitpod: Development IDE
-* Google Fonts: https://fonts.google.com/
-* Font Awesome: https://fontawesome.com/
-* Convertio to convert .jpg images to .webp: https://convertio.co/webp-converter/
-* Favicon generator to convert image to favicon: https://favicon.io/favicon-converter/
+* Code Repository: [GitHub](https://github.com/)
+* Development IDE: [Gitpod](https://www.gitpod.io/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* Convert .jpg images to .webp: [Convertio](https://convertio.co/webp-converter/)
+* Generate favicon: [Favicon](https://favicon.io/favicon-converter/)
 
 
 # Credits for Content & Media:
-* Pexels for images: https://www.pexels.com/
-* Am I responsive? for the website screenshot across devices: https://ui.dev/amiresponsive
+* Images: [Pexels](https://www.pexels.com/)
+* Website screenshot across devices: [Am I Responsive?](https://ui.dev/amiresponsive)
 * Love Running project and Coders Coffee project : I used these two projects as my reference for HTML design and CSS styling of various elements.
 * My Mentor Martina for her guidance and the Slack Community for their support.
 
