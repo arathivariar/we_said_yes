@@ -95,27 +95,25 @@ nav {
     color: #252525;
 }
 
-/* Hero section */
 #hero {
-    height: 800px;
+    height: 100vh;
     width: 100%;
-    background: url("../images/rsvp.webp") no-repeat center center/cover;
+    background: url("../images/rsvp.webp") no-repeat center center;
+    background-size: cover; /* Initially set to cover */
+    min-height: 400px; /* Set a minimum height to avoid excessive stretching */
 }
 
 #cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(54,117,136, .8);
+    background-color: rgba(54, 117, 136, 0.8);
     font-size: 120%;
     text-decoration-color: #fff;
-    position: relative;
-    top: 300px;
-    left: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: max-content;
     height: max-content;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 10px;  
+    padding: 10% 5% 10% 5%;
 }
 
 #cover-text>h2{
@@ -124,40 +122,45 @@ nav {
 
 .image-container {
     position: relative;
-    display: inline-block;
-    justify-content: center;
-  }
-  
-  #invitation-background {
     display: block;
-    width: 100%;
-    height: fit-content;
-    background: no-repeat center center/cover;
-  }
-  
-  .overlay-text {
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    margin: 0 auto;
-    transform: translate(-50%, -50%); 
-    background-color: #fff; 
-    color: #800080; 
-    padding: 10px 20px; 
-    font-size: 80px; 
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-  }
+    overflow: hidden;
+}
 
-  .venue, #map_link{
-    font-size: 50px;
+#invitation-background {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #800080;
+    padding: 10%;
+    font-family: 'Lato', sans-serif;
+    font-size: 6.5vw;
+    text-align: center;
+    max-width: 70vw; /* Minimum 70% of the viewport width */
+    width: 70%; /* Fallback for older browsers */
+    box-sizing: border-box;
+}
+
+.venue,
+#map_link {
+    font-size: 2.5vw;
     font-family: 'Oswald', sans-serif;
     font-style: italic;
     text-decoration: underline;
     text-decoration-color: #800080;
     text-transform: lowercase;
-    left: 50px;
-  }
+    left: 5%;
+    position: relative;
+    width: 90%; /* Adjust width to fit within the overlay-text */
+}
 
 
 /* Footer */
@@ -195,21 +198,25 @@ main {
 }
 
 /* Form */
-#rsvp-page{
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
+#rsvp-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 #rsvp-form {
+    position: relative; /* Change to relative */
     color: #ffffff;
     background-color: #E4959E;
-    padding: 30px;
-    width:fit-content;
-    height:fit-content;
-    position: absolute;
-    left: 30%;
+    padding: 2%;
+    max-width: 70vw; /* Minimum 70% of the viewport width */
+    width: 70%; /* Fallback for older browsers */
+    height: fit-content;
+    margin: auto; /* Center horizontally */
+    box-sizing: border-box;
 }
+
 #rsvp-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
@@ -260,6 +267,13 @@ main {
     box-shadow: 5px 5px 10px rgba(54, 117, 136, 0.5);
 }
 
+/* Thank you page */
+#thankyou-background {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    min-height: 400px;
+}
 /* Footer */
 footer {
     background-color: #0B4F6C;
@@ -270,40 +284,6 @@ footer {
 @media screen and (min-width: 576px) {
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Header */
-
-    /* Main content */
-
-    /* Wedding Invitation */
-
-    /* Form */
-    #rsvp-page {
-        background-position: center;
-        position: relative;
-    }
-
-    #rsvp-form {
-        max-width: 400px;
-        position: absolute;
-        top: 10%;
-        bottom: 10%;
-        right: 25%;
-        left:  38%;
-        top: 10px;
-    }
-
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
-
-    .rsvp-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
-    }
-}
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -311,5 +291,21 @@ footer {
     }
 }
 @media screen and (min-width: 1200px) {
+
+}
+
+@media (max-width: 768px) {
+    #hero {
+        background-size: cover; /* Change to contain for smaller screens */
+    }
+
+    #cover-text {
+        width: 80%; /* Adjust width for smaller screens */
+        padding: 10% 5% 10% 5%;
+    }
+
+    .overlay-text {
+        font-size: 10vw;
+    }
 
 }
