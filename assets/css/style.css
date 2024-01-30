@@ -99,8 +99,10 @@ nav {
     height: 100vh;
     width: 100%;
     background: url("../images/rsvp.webp") no-repeat center center;
-    background-size: cover; /* Initially set to cover */
-    min-height: 400px; /* Set a minimum height to avoid excessive stretching */
+    /* Initially set to cover */
+    background-size: cover;
+    /* Set a minimum height to avoid excessive stretching */
+    min-height: 400px; 
 }
 
 #cover-text {
@@ -138,14 +140,16 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    background-color: #DFF8EB;
     color: #800080;
     padding: 10%;
     font-family: 'Lato', sans-serif;
     font-size: 6.5vw;
     text-align: center;
-    max-width: 70vw; /* Minimum 70% of the viewport width */
-    width: 70%; /* Fallback for older browsers */
+    /* Minimum 70% of the viewport width */
+    max-width: 70vw;
+    /* Fallback for older browsers */
+    width: 70%; 
     box-sizing: border-box;
 }
 
@@ -159,7 +163,8 @@ nav {
     text-transform: lowercase;
     left: 5%;
     position: relative;
-    width: 90%; /* Adjust width to fit within the overlay-text */
+    /* Adjust width to fit within the overlay-text */
+    width: 90%; 
 }
 
 
@@ -206,14 +211,17 @@ main {
 }
 
 #rsvp-form {
-    position: relative; /* Change to relative */
+    position: relative; 
     color: #ffffff;
     background-color: #E4959E;
     padding: 2%;
-    max-width: 70vw; /* Minimum 70% of the viewport width */
-    width: 70%; /* Fallback for older browsers */
+    /* Minimum 70% of the viewport width */
+    max-width: 70vw;
+    /* Fallback for older browsers */
+    width: 70%; 
     height: fit-content;
-    margin: auto; /* Center horizontally */
+    /* Center horizontally */
+    margin: auto;
     box-sizing: border-box;
 }
 
@@ -296,11 +304,13 @@ footer {
 
 @media (max-width: 768px) {
     #hero {
-        background-size: cover; /* Change to contain for smaller screens */
+        /* Change to contain for smaller screens */
+        background-size: cover; 
     }
 
     #cover-text {
-        width: 80%; /* Adjust width for smaller screens */
+        /* Adjust width for smaller screens */
+        width: 80%; 
         padding: 10% 5% 10% 5%;
     }
 
