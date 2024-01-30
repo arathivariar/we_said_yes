@@ -124,6 +124,7 @@ nav {
 .image-container {
     position: relative;
     display: inline-block;
+    justify-content: center;
   }
   
   .image-container img {
@@ -131,12 +132,14 @@ nav {
     width: 100%;
     height: auto;
     background: no-repeat center center/cover;
+    margin: 0 auto;
   }
   
   .overlay-text {
     position: absolute;
     top: 50%; 
     left: 50%; 
+    margin: 0 auto;
     transform: translate(-50%, -50%); 
     background-color: #fff; 
     color: #800080; 
@@ -204,6 +207,8 @@ main {
     padding: 30px;
     width:fit-content;
     height:fit-content;
+    position: absolute;
+    left: 30%;
 }
 #rsvp-form>h2 {
     color: #fafafa;
@@ -255,9 +260,33 @@ main {
     box-shadow: 5px 5px 10px rgba(54, 117, 136, 0.5);
 }
 
+/* Footer */
+footer {
+    background-color: #0B4F6C;
+    box-shadow: 0 -2px 2px #367588;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Header */
 
+    /* Main content */
+
+    /* Wedding Invitation */
+
+    /* Form */
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .rsvp-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -268,10 +297,4 @@ main {
 }
 @media screen and (min-width: 1200px) {
 
-}
-
-/* Footer */
-footer {
-    background-color: #0B4F6C;
-    box-shadow: 0 -2px 2px #367588;
 }
