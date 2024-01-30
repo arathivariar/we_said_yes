@@ -6,45 +6,44 @@
 "We Said, Yes!" is a wedding invitation website where your guests can see the wedding details and respond with an RSVP message to the host. We make your big day even more special with the presence of your family and friends. Let's have a joyous celebration of love, together with our loved ones!
 
  ![Website view across device screens](assets/screenshots/website_responsive_screens.png)   
- 
+
 
 # Table of Contents:
 
 - [Design](#design)
 - [Features](#features)
 
-	- [Existing Features] (#existing-features) 
+	- [Existing Features](#existing-features) 
 
-           1. Languages Used  
+        -       Languages Used
 
-           2. Navigation  
+        -       Navigation
 
-           3. Home Page Hero Image  
+        -       Home Page Hero Image  
 
-           4. Home Page  
+        -       Home Page  
 
-           5. Footer  
+        -       Footer  
 
-           6. Wedding Invitation  
+        -       Wedding Invitation 
 
-           7. RSVP  
+        -       RSVP  
 
-           8. Thank You Page  
+        -       Thank You Page  
 
-        * Future Features
-- Testing  
+        - [Future Features](#future-features)
+- [Testing](#testing)  
 
-        1. Validator Testing  
+        Validator Testing
+        Bugs  
 
-        2. Bugs  
+-    [Libraries & Programs Used](#libraries-and-programs-used)
+- [Credits](#credits)  
 
-* Libraries & Programs Used
-* Deployment
-* Credits  
-
-       1. Content  
-
-       2. Media  
+        Content  
+        Media 
+-    [Deployment](#deployment)
+   
 
 
 
@@ -55,7 +54,7 @@ I started with a wireframe on paper with pencil as shown below:
 ![Wireframe Design](assets/screenshots/wireframe_design.jpg)  
 
 
-* Text & Background colour:
+**Text & Background colour:**
 
   I selected both the text and background colours suitable for a wedding invitation. I wanted to keep the colour palette breezy with pastel colours and include images related to wedding. I have used a darker shade for the header and the footer to provide some contrast from the main sections.
 
@@ -63,13 +62,13 @@ I started with a wireframe on paper with pencil as shown below:
 # Features
 
 # Existing Features:
-1. Header
-2. Navigation bar
-3. About us page
-4. Wedding invitation page with the Wedding details and Google Map link
-5. RSVP form
-6. Thank you page
-7. Social media links in the footer   
++ Header
++ Navigation bar
++ About us page
++ Wedding invitation containing the details of the wedding and Google Map link to the wedding venue
++ RSVP form
++ Thank you page
++ Social media links in the footer   
 
 
 # Languages Used:
@@ -134,8 +133,8 @@ The footer section includes the links to three social media sites and a text ind
 
 # Future Features:  
 
-1. The host will receive the list of RSVP responses by all the guests so that they can properly plan the wedding.
-2. The user can select the invitation template from a list of avilable templates.
++ The host will receive the list of RSVP responses by all the guests so that they can properly plan the wedding.
++ The user can select the invitation template from a list of avilable templates.
 
 # Testing:  
 
@@ -193,6 +192,7 @@ There are no unfixed bugs existing in this website as per my knowledge.
 
 # Credits for Content & Media:
 * Pexels for images: https://www.pexels.com/
+* Am I responsive? for the website screenshot across devices: https://ui.dev/amiresponsive
 * Love Running project and Coders Coffee project : I used these two projects as my reference for HTML design and CSS styling of various elements.
 * My Mentor Martina for her guidance and the Slack Community for their support.
 
