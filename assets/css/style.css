@@ -279,6 +279,21 @@ footer {
     /* Wedding Invitation */
 
     /* Form */
+    #rsvp-page {
+        background-position: center;
+        position: relative;
+    }
+
+    #rsvp-form {
+        max-width: 400px;
+        position: absolute;
+        top: 10%;
+        bottom: 10%;
+        right: 25%;
+        left:  38%;
+        top: 10px;
+    }
+
     .text-input:hover {
         border-color: #f16c6b;
     }
